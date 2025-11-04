@@ -112,10 +112,95 @@ curl "http://localhost:4000/api/usuarios"
 ## 🏋️‍♂️ Ejercicios prácticos
 
 1. Crear un usuario nuevo.
+
+```cmd
+{
+  "id": 4,
+  "nombre": "Laura Mendoza",
+  "email": "laura.mendoza@example.com",
+  "rol": "usuario"
+}
+
+```
+
+
 2. Actualizar un usuario existente.
+
+```cmd
+{
+  "id": 2,
+  "nombre": "María Gómez Rivas",
+  "email": "maria.gomez@example.com",
+  "rol": "editor"
+}
+
+```
+
+
 3. Eliminar un usuario.
+
+```cmd
+{
+  "message": "Usuario eliminado correctamente"
+}
+
+```
+
+
 4. Consultar un usuario específico.
+
+```cmd
+{
+  "id": 1,
+  "nombre": "Juan Pérez",
+  "email": "juan.perez@example.com",
+  "rol": "admin"
+}
+
+```
+
+
 5. Consultar los posts de un usuario.
+
+```cmd
+[
+  {
+    "id": 2,
+    "titulo": "Nueva actualización",
+    "contenido": "Hemos lanzado una nueva versión del sistema.",
+    "usuarioId": 2
+  }
+]
+
+```
+
+
 6. Consultar la lista completa de usuarios.
+
+```cmd
+[
+  {
+    "id": 1,
+    "nombre": "Juan Pérez",
+    "email": "juan.perez@example.com",
+    "rol": "admin"
+  },
+  {
+    "id": 2,
+    "nombre": "María Gómez Rivas",
+    "email": "maria.gomez@example.com",
+    "rol": "editor"
+  },
+  {
+    "id": 4,
+    "nombre": "Laura Mendoza",
+    "email": "laura.mendoza@example.com",
+    "rol": "usuario"
+  }
+]
+
+```
+
+
 
 > 💡 Cada ejercicio se puede realizar directamente con los comandos `curl` de la sección anterior.
