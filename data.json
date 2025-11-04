@@ -1,0 +1,36 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "rol": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "María Gómez",
+      "email": "maria.gomez@example.com",
+      "rol": "usuario"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Ruiz",
+      "email": "carlos.ruiz@example.com",
+      "rol": "usuario"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "titulo": "Bienvenida al sistema",
+      "contenido": "Este es el primer post de ejemplo.",
+      "usuarioId": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Nueva actualización",
+      "contenido": "Hemos lanzado una nueva versión del sistema.",
+      "usuarioId": 2
+    }
+  ]
+}
